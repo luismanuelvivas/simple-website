@@ -137,9 +137,7 @@ header ul li{
 
 .section2 {
   margin:2em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  height:400px;
 }
 
 .section2 div{
@@ -151,14 +149,72 @@ header ul li{
 .section2 #div1{
   background:url("https://i.picsum.photos/id/1052/300/300.jpg?hmac=d9kKT99eDkRzXWZj9UrcQ8BDEI9dH-Qf3biF8kAR3wg");
   background-size:cover;
+  position:absolute;
 }
 
 .section2 #div2{
   background:url("https://i.picsum.photos/id/547/300/300.jpg?hmac=4ExjN2OrcUeWMGKTCcYy0Rsb_Ar9yXf0REJ0vEZCb9I");
   background-size:cover;
+  position:absolute;
+  
 }
 
 .section2 #div3{
   background:url("https://i.picsum.photos/id/100/300/300.jpg?hmac=rRJwCdAq0dwpM7tpG0mEUD9l4HJLw_ZX0pbnCw5xn_U");
   background-size:cover;
+  position:absolute;
+}
+
+.position1{
+  right: 3%;
+
+  transition:0.4s ease;
+}
+
+.position2{
+  right:35%;
+
+  transition:0.4s ease;
+}
+
+.position3{
+  right:67%;
+  z-index:100;
+
+  transition:0.4s ease;
+}
+
+
+.prev2, .next2{
+  color:black;
+  margin-top: 30vh;
+  font-size:1.5em;
+  position: absolute;
+  transition:0.4s ease;
+}
+
+.prev2:hover, .next2:hover{
+  cursor:pointer;
+  font-size: 2em;
+}
+
+.prev2{
+  left: 15px;
+}
+
+.next2{
+  right:15px;
+}
+
+/*SECTION 3*/
+
+.section3{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section3 div{
+  text-align: center;
+  width:50%;
 }

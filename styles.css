@@ -19,7 +19,7 @@ header{
     height: 100px;
     width:100%;
     background:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.1));
-    z-index:100;
+    z-index:1000;
     color:white;
 
     display:flex;
@@ -136,6 +136,7 @@ header ul li{
 /* Section 2*/
 
 .section2 {
+  width:80%;
   margin:2em;
   height:400px;
 }
@@ -209,6 +210,7 @@ header ul li{
 /*SECTION 3*/
 
 .section3{
+  margin:5em 0;
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -218,3 +220,36 @@ header ul li{
   text-align: center;
   width:50%;
 }
+
+/* FOOTER*/ 
+
+footer{
+  border-top:9px solid lightgrey;
+  background: black;
+  color:white;
+  padding:3em 0;
+}
+
+footer #foosection1{
+  display: flex;
+  justify-content: space-around;
+  margin:2em 0;
+}
+
+footer #foosection2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top:1em;
+  margin: 0 2em;
+  border-top: 2px solid rgba(255,255,255,0.7);
+}
+
+footer div{
+  width:20%;
+  padding:20px;
+  text-align:center;
+  /* border-left:2px solid rgba(255,255,255,0.7);
+  border-right: 2px solid rgba(255,255,255,0.7); */
+}
+

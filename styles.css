@@ -151,12 +151,16 @@ header ul li{
   background:url("https://i.picsum.photos/id/1052/300/300.jpg?hmac=d9kKT99eDkRzXWZj9UrcQ8BDEI9dH-Qf3biF8kAR3wg");
   background-size:cover;
   position:absolute;
+
+  transition:1s ease;
 }
 
 .section2 #div2{
   background:url("https://i.picsum.photos/id/547/300/300.jpg?hmac=4ExjN2OrcUeWMGKTCcYy0Rsb_Ar9yXf0REJ0vEZCb9I");
   background-size:cover;
   position:absolute;
+
+  transition:1s ease;
   
 }
 
@@ -164,7 +168,35 @@ header ul li{
   background:url("https://i.picsum.photos/id/100/300/300.jpg?hmac=rRJwCdAq0dwpM7tpG0mEUD9l4HJLw_ZX0pbnCw5xn_U");
   background-size:cover;
   position:absolute;
+
+  transition:1s ease;
 }
+
+.mountain, .lake, .beach{
+  display:none;
+}
+
+ /*HOVER*/
+.section2 #div1:hover{
+  background:black;
+}
+
+.section2 #div2:hover{
+  background:black
+  
+}
+
+.section2 #div3:hover{
+  background:black;
+}
+
+.mountainHover, .lakeHover, .beachHover{
+  display:flex;
+  color:white;
+  justify-content: center;
+  margin-top:25vh;
+}
+
 
 .position1{
   right: 3%;
